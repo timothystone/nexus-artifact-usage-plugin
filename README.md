@@ -2,10 +2,12 @@
 This nexus plugin allows the user to get the list of artifacts depending on a given artifact; some people call this backward dependencies.
 
 ## How to build :
-Simply clone this repo and run mvn clean install
+Simply clone this repo and run the Maven wrapper script. It will download the version of maven enforced by the project.
+
+`./mvnw clean install`
 
 ## How to install :
-Unzip the archive in target named artifact-usage-plugin-0.10.0-SNAPSHOT-bundle.zip to NEXUSHOME/nexus/WEB-INF/plugin-repository and restart nexus.
+Unzip the archive in `target` named `artifact-usage-plugin-2.14.5-SNAPSHOT-bundle.zip` to `NEXUSHOME/nexus/WEB-INF/plugin-repository` and restart Nexus.
 
 Or simply download the [latest release](https://github.com/saleemshafi/nexus-artifact-usage-plugin/releases)
 
